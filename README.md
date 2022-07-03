@@ -72,6 +72,15 @@ I leave the command i use to install it on linux but they will change depending 
    yarn
    ```
 
+### Set up
+
+You need to add the following variables to an `.env` file, similar to what you see in `.env.example`.
+
+- `PRIVATE_KEY`: The private key of your account (like from [metamask](https://metamask.io/)).
+- `RINKEBY_RPC_URL`: This is a url of a rinkeby testnet node, we use it like an entry point to the network. You can get one from [Alchemy](https://alchemy.com/?a=673c802981)
+- `ETHERSCAN_API_KEY`: This is a API key used to automatically verify your contract. You can get one from [Etherscan](https://etherscan.io/myapikey) after yor register yourself.
+- `COINMARKETCAP_API_KEY`: This is a API key we use to estimate the gas fee in USD. You can get one from [CoinMarketCap](https://pro.coinmarketcap.com/signup)
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -118,4 +127,4 @@ yarn hardhat coverage
 
 A special Thanks to [Patrick Collins](https://github.com/PatrickAlphaC/) for creating this project and help other peoples to get in Blockchain development! Here you can find his original [repo](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/) and here the [video course](https://www.youtube.com/watch?v=gyMwXuJrbJQ) he made for FreeCodeCamp.org.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">-<a href="#top"> back to top </a>-</p>
